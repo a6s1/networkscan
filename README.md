@@ -24,18 +24,24 @@ This Python script scans a local network to identify active devices by their IP 
    cd network-scanner
 
 
-##Install Required Libraries:
+2. **Install Required Libraries:**
+   ```sh
+   pip install scapy getmac requests
 
-pip install scapy getmac requests
 
-##Run the Script:
-python network_scanner.py
 
-Example Output
+3. **Usage:**
+   ```sh
+   python network_scanner.py
 
-Enter the IP range to scan (e.g., 192.168.1.0/24): 192.168.1.0/24
+
+
+3. **Example Output:**
+   ```sh
+   Enter the IP range to scan (e.g., 192.168.1.0/24): 192.168.1.0/24
 IP                  MAC Address             Device Name             Vendor
 ------------------------------------------------------------------------------------------
 192.168.1.1         00:1A:2B:3C:4D:5E       router.home              Cisco Systems, Inc
 192.168.1.100       00:1B:2C:3D:4E:5F       desktop.home             Dell Inc.
 192.168.1.101       00:1C:2D:3E:4F:5G       laptop.home              Hewlett Packard
+
